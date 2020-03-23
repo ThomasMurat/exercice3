@@ -1,17 +1,33 @@
 <!DOCTYPE html>
 <html>
 <meta charset="UTF-8" />
+<style>
+    .point
+    {
+        list-style-type: disc;
+    }
+    .poid
+    {
+        color: red;
+    }
+    .volume
+    {
+        color: green;
+    }
+</style>
     <head>
         <title>Ma liste de courses du 7 Mai 2016</title>
     </head>  
     <body>
         <h1>Ma liste de courses du 7 Mai 2016</h1>
-        <p1> Ilme faut plusieur choses : 
-            Une baguette
-            2 kilos de tomates
-            3 litres de lait
-            5 boites de chewing gum
+        <p1> Il me faut plusieur choses :
+            <ul class="point">
+                <li>Une baguette</li>
+                <li>2 <span class="poid">kilos</span>de tomates</li> 
+                <li>3 <span class="volume">litres</span> de lait</li>  
+                <li> 5 <strong>boites</strong> de chewing gum</li>
+            </ul> 
+        <em>Payer en liquide ou par chèque.</em>       
         </p1>
-        <h2>Payer en liquide ou par chèque.</h2>
     </body>
 </html>
